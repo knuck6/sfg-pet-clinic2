@@ -4,7 +4,6 @@ package sfgpetclinic2.services.map;
 import org.springframework.stereotype.Service;
 import sfgpetclinic2.model.Owner;
 import sfgpetclinic2.model.Pet;
-import sfgpetclinic2.model.PetType;
 import sfgpetclinic2.services.OwnerService;
 import sfgpetclinic2.services.PetService;
 import sfgpetclinic2.services.PetTypeService;
