@@ -29,7 +29,7 @@ public class OwnerSdJpaService implements OwnerService {
     public Set<Owner> findAll() {
         Set<Owner> owners = new HashSet<>();
         ownerRepository.findAll().forEach(owners::add);
-        return null;
+        return owners;
     }
 
     @Override
